@@ -1,0 +1,39 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+body, section, aside,a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ body{
+    width: 100%;
+ }
+ h1{
+    font-size: 25px;
+    color: #000;
+ }
+ footer{
+    text-align: center;
+    width: 100%;
+    background-color: #444;
+    color: #FFF;
+ }
+ A{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #444;
+    width: 5vw;
+    height:3vw ;
+    border-radius: 30px;
+ }
+
+ a:hover{
+    background-color: #777
+ }
+.lista_perro:hover, .lista_gato:hover{
+color: #777;
+cursor: pointer;
+ }
